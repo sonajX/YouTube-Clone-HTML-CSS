@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body class="body">
+    <!-- Start of Header-->
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg"> 
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="textbox" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="profile-picture-icon" src="channel-pictures/current-profile-picture.jpg">
+      </div>
+    </header>
+    <!-- End of Header-->
+    
+    <!-- Start of Side Bar-->
+    <nav class="sidebar">
+        <div class="sidebar-link">
+          <img src="icons/home.svg">
+          <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/explore.svg">
+          <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/subscriptions.svg">
+          <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/originals.svg">
+          <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/youtube-music.svg">
+          <div>Youtube Music</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/library.svg">
+          <div>Library</div>
+        </div>
+      </nav>
+    <!-- End of Side Bar-->
+    
+    <!-- Start of Grid Container for the Contents-->
+    <main>
+      <section class="video-grid">
+        <!-- Start of Nested Layouts-->
+        <div class="video-preview">
+          <!-- 1st Row of the Vertical Layout -->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=1s&pp=ygUQaHRtbCBmdWxsIGNvdXJzZQ%3D%3D>">
+              <img class="thumbnail" src="thumbnails/thumbnail-1.webp"></a> 
+            <div class="video-time">
+              6:31:23
+            </div>  
+          </div>
+          <!-- 2nd Row of the Vertical Layout -->
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@SuperSimpleDev">
+                <img class="profile-picture" src="channel-pictures/icon-1.jpg"></a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=1s&pp=ygUQaHRtbCBmdWxsIGNvdXJzZQ%3D%3D>">
+                <p class="video-title">HTML & CSS Full Course - Beginner to Pro</p></a>
+              <a href="https://www.youtube.com/@SuperSimpleDev"><p class="video-author">SuperSimpleDev</p></a>
+              <p class="video-stats">10M views 	&#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+        <!-- Start of Nested Layouts-->
+        <div class="video-preview">
+          <!-- 1st Row of the Vertical Layout -->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=aFqjoCbZ4ik&pp=ygUzRmlyc3QgTG9vayBJbnNpZGUgU3BhY2VYJ3MgU3RhcmZhY3Rvcnkgdy8gRWxvbiBNdXNr">
+              <img class="thumbnail" src="thumbnails/thumbnail-2.webp"></a>
+            <div class="video-time">
+              1:04:18
+            </div>  
+          </div>
+          <!-- 2nd Row of the Vertical Layout -->
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@EverydayAstronaut"><img class="profile-picture" src="channel-pictures/icon-2.jpg"></a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=aFqjoCbZ4ik&pp=ygUzRmlyc3QgTG9vayBJbnNpZGUgU3BhY2VYJ3MgU3RhcmZhY3Rvcnkgdy8gRWxvbiBNdXNr">
+                <p class="video-title">First Look Inside SpaceX's Starfactory w/ Elon Musk</p></a>
+              <a href="https://www.youtube.com/@EverydayAstronaut">
+                <p class="video-author">Everyday Astronaut</p></a>
+              <p class="video-stats">3.9M views 	&#183; 1 month ago</p>
+            </div>
+          </div>
+        </div>
+        <!-- Start of Nested Layouts-->
+        <div class="video-preview">
+          <!-- 1st Row of the Vertical Layout -->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=r9JdG1adAfk&pp=ygUrQkVTVCBLQU5UTyBGUklFRCBDSElDS0VOICh3aXRoIEFiaSBNYXJxdWVzKQ%3D%3D">
+              <img class="thumbnail" src="thumbnails/thumbnail-3.webp"></a> 
+            <div class="video-time">
+              12:14
+            </div>  
+          </div>
+          <!-- 2nd Row of the Vertical Layout -->
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@featrmedia">
+                <img class="profile-picture" src="channel-pictures/icon-3.jpg"></a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=r9JdG1adAfk&pp=ygUrQkVTVCBLQU5UTyBGUklFRCBDSElDS0VOICh3aXRoIEFiaSBNYXJxdWVzKQ%3D%3D">
+                <p class="video-title">BEST KANTO FRIED CHICKEN (with Abi Marques)</p></a>
+              <a href="https://www.youtube.com/@featrmedia">
+                <p class="video-author">FEATR</p></a>
+              <p class="video-stats">688K views 	&#183; 7 months ago</p>
+            </div>
+          </div>
+        </div>
+        <!-- Start of Nested Layouts-->
+        <div class="video-preview">
+          <!-- 1st Row of the Vertical Layout -->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=G-jct2iztDk&pp=ygU4JDEgU3RyZWV0IEZvb2QgfCBIb3QgRG9nIFNhbmR3aWNoIHwgRmlsaXBpbm8gU3RyZWV0IEZvb2Q%3D"><img class="thumbnail" src="thumbnails/thumbnail-4.webp"></a>
+            <div class="video-time">
+              8:20
+            </div>  
+          </div>
+          <!-- 2nd Row of the Vertical Layout -->
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@hungry_fish_eye">
+                <img class="profile-picture" src="channel-pictures/icon-4.jpg"></a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=G-jct2iztDk&pp=ygU4JDEgU3RyZWV0IEZvb2QgfCBIb3QgRG9nIFNhbmR3aWNoIHwgRmlsaXBpbm8gU3RyZWV0IEZvb2Q%3D"><p class="video-title">$1 Street Food | Hot Dog Sandwich | Filipino Street Food</p></a>
+              <a href="https://www.youtube.com/@hungry_fish_eye">
+                <p class="video-author">Hungry Fish Eye</p></a>
+              <p class="video-stats">218K views 	&#183; 4 months ago</p>
+            </div>
+          </div>
+        </div>
+        <!-- End of Grid Container Contents-->
+        <!-- Start of Nested Layouts-->
+        <div class="video-preview">
+          <!-- 1st Row of the Vertical Layout -->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=XKHEtdqhLK8&pp=ygUgUHl0aG9uIEZ1bGwgQ291cnNlIGZvciBmcmVlIPCfkI0%3D">
+              <img class="thumbnail" src="thumbnails/thumbnail-5.webp"></a> 
+            <div class="video-time">
+              12:00:00
+            </div>  
+          </div>
+          <!-- 2nd Row of the Vertical Layout -->
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@BroCodez">
+                <img class="profile-picture" src="channel-pictures/icon-5.jpg"></a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=XKHEtdqhLK8&pp=ygUgUHl0aG9uIEZ1bGwgQ291cnNlIGZvciBmcmVlIPCfkI0%3D">
+                <p class="video-title">Python Full Course for free 🐍</p></a>
+              <a href="https://www.youtube.com/@BroCodez">
+                <p class="video-author">Bro Code</p></a>
+              <p class="video-stats">18M views 	&#183; 3 years ago</p>
+            </div>
+          </div>
+        </div>
+        <!-- Start of Nested Layouts-->
+        <div class="video-preview">
+          <!-- 1st Row of the Vertical Layout -->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=7SZrTrIdeE0&pp=ygVWTmV3IE1pbmVjcmFmdCBSaXZlciBpcyBCZXlvbmQgQmVsaWVmIHwgRXhwbG9yaW5nIHdpdGggRGlzdGFudCBIb3Jpem9ucyArIFJlVGVycmFGb3JnZWQ%3D">
+              <img class="thumbnail" src="thumbnails/thumbnail-6.webp"> </a>
+            <div class="video-time">
+              9:04
+            </div>  
+          </div>
+          <!-- 2nd Row of the Vertical Layout -->
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@Raytraceforge">
+                <img class="profile-picture" src="channel-pictures/icon-6.jpg"></a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=7SZrTrIdeE0&pp=ygVWTmV3IE1pbmVjcmFmdCBSaXZlciBpcyBCZXlvbmQgQmVsaWVmIHwgRXhwbG9yaW5nIHdpdGggRGlzdGFudCBIb3Jpem9ucyArIFJlVGVycmFGb3JnZWQ%3D">
+                <p class="video-title">New Minecraft River is Beyond Belief | Exploring with Distant Horizons + ReTerraForged</p></a>
+              <a href="https://www.youtube.com/@Raytraceforge">
+                <p class="video-author">Raytraceforge</p></a>
+              <p class="video-stats">341K views 	&#183; 4 months ago</p>
+            </div>
+          </div>
+        </div>
+        <!-- Start of Nested Layouts-->
+        <div class="video-preview">
+          <!-- 1st Row of the Vertical Layout -->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=St5v2uI-Nis&pp=ygUaSG93IEkgZGVzaWduZWQgRnJ1aXQgTmluamE%3D">
+              <img class="thumbnail" src="thumbnails/thumbnail-7.webp"> </a>
+            <div class="video-time">
+              22:58
+            </div>  
+          </div>
+          <!-- 2nd Row of the Vertical Layout -->
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@lukemuscat">
+                <img class="profile-picture" src="channel-pictures/icon-7.jpg"></a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=St5v2uI-Nis&pp=ygUaSG93IEkgZGVzaWduZWQgRnJ1aXQgTmluamE%3D">
+                <p class="video-title">How I designed Fruit Ninja</p></a>
+              <a href="https://www.youtube.com/@lukemuscat">
+                <p class="video-author">Luke Muscat</p></a>
+              <p class="video-stats">5.9M views 	&#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+        <!-- Start of Nested Layouts-->
+        <div class="video-preview">
+          <!-- 1st Row of the Vertical Layout -->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=DQ0lCm0J3PM&pp=ygUgSSBNYWRlIGFuIEFJIHdpdGgganVzdCBSZWRzdG9uZSE%3D">
+              <img class="thumbnail" src="thumbnails/thumbnail-8.webp"> </a>
+            <div class="video-time">
+              17:23
+            </div>  
+          </div>
+          <!-- 2nd Row of the Vertical Layout -->
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@mattbatwings">
+                <img class="profile-picture" src="channel-pictures/icon-8.jpg"></a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=DQ0lCm0J3PM&pp=ygUgSSBNYWRlIGFuIEFJIHdpdGgganVzdCBSZWRzdG9uZSE%3D">
+                <p class="video-title">I Made an AI with just Redstone!</p></a>
+              <a href="https://www.youtube.com/@mattbatwings">
+                <p class="video-author">mattbatwings</p></a>
+              <p class="video-stats">838K views 	&#183; 2 months ago</p>
+            </div>
+          </div>
+        </div>
+        <!-- Start of Nested Layouts-->
+        <div class="video-preview">
+          <!-- 1st Row of the Vertical Layout -->
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=g97La0u55_g&pp=ygUSSnVzdCBUaGUgVHdvIE9mIFVz">
+              <img class="thumbnail" src="thumbnails/thumbnail-9.webp"> </a>
+            <div class="video-time">
+              3:58
+            </div>  
+          </div>
+          <!-- 2nd Row of the Vertical Layout -->
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@kiltle3916">
+                <img class="profile-picture" src="channel-pictures/icon-9.jpg"></a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=g97La0u55_g&pp=ygUSSnVzdCBUaGUgVHdvIE9mIFVz">
+                <p class="video-title">Just The Two Of Us</p></a>
+              <a href="https://www.youtube.com/@kiltle3916">
+                <p class="video-author">KILTLE</p></a>
+              <p class="video-stats">18M views 	&#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+        <!-- End of Grid Container Contents-->
+      </section>
+    </main>
+  </body>
+</html>
