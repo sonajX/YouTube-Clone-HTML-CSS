@@ -1,3 +1,6 @@
+Watched the HTML & CSS Full Course - Beginner to Pro by SuperSimplified Dev
+The final project is a clone of the frontpage of YouTube
+
 Started:‎
 Sunday, ‎28 ‎July ‎2024, ‏‎12:17:36 am
 
